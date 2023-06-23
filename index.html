@@ -1,0 +1,149 @@
+﻿<!doctype html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title>אוכל רחוב - סיבוב קולינרי מסביב לעולם</title>
+    <meta name="description" content="האתר הזה נבנה לצורך פרויקט סוף שנה של שנה א' בתואר טכנולוגיות למידה'" />
+    <meta name="keywords" content="מתכונים, אוכל רחוב, אוכל,רחוב,בוריטו,גלידה" />
+    <meta name="author" content="Omer,Eyal,Raz" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <!-- CSS -->
+    <!--<link href="styles/reset.css" rel="stylesheet" />-->
+    <link href="styles/myStyle.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="files/Whitelogo_update.png">
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-3.6.0.min.js"></script>
+    <script src="jScripts/JavaScript.js" type="text/javascript"></script>
+
+
+</head>
+<body class="background"  alt="תמונת רקע של הגשת אוכל רחוב " onload="showSlide(0)">
+    <header>
+        <a href="index.html"><div id="logo" alt="לוגו של האתר בצורת סכין ומזלג"></div></a>
+        <nav id="navbar">
+            <ul>
+                <li class="active">דף הבית</li>
+                <li class="navHover"><a class="links" href="sefer-matkonim.html">ספר מתכונים</a></li>
+                <li class="navHover"><a class="links" href="foodByContinents.html">אוכל לפי יבשות</a></li>
+                <li class="disabled"><a class="links" href="#">ירידי אוכל בעולם</a></li>
+                <li class="navHover"><a class="links" href="about.html">אודות</a></li>
+                <li class="navHover"><a class="links" href="contactUs.html">צרו קשר</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="firstSection">
+        <h1 id="firstTitleHome"> יצאתם לטייל בחו"ל?</h1>
+        <h3 id="secondTitleHome">בואו לגלות איתנו עולם שלם של טעמים</h3>
+
+
+        <a id="slideIntoCarousel" href="#secondSection"><img id="napkin" src="../files/napkin.png" width="250" alt="גלילה לתחתית האתר, תמונה של מפית עם כיתוב בתאבון"></a>
+    </section>
+    <div class="main-container" id="secondSection">
+        <div class="rightSide" alt="צד ימין של העמוד">
+            <a href="#" class="scroll-up-button" onclick="scrollToTop()" alt="כפתור גלילה לתחילת העמוד">&#8593;</a>
+            <h2 id="Quote">
+                "אתה לא צריך מזלג מכסף בשביל להנות מאוכל טוב."
+            </h2>
+            <p>כנראה שאין דבר שמגדיר את המטבח של מדינה או עיר יותר מאוכל הרחוב שלה. אוכל רחוב, שנמכר לרוב בדוכנים ונאכל לא פעם בעמידה, מגדיר בצורה המדויקת ביותר את הטעמים העממיים, את סגנון האכילה האהוב, ובאופן כללי את בלוטות הטעם הקולקטיביות – של כל מוקד תיירותי בעולם. </p>
+            <br />
+            <h3 id="comeWhitUs">הצטרפו אלינו לצלילה עמוקה לתוך אוכל הרחוב במקומות שונים בעולם</h3>
+
+            <div id="engagmentButtons">
+                <!--<input id="recipeBook" type="button" onclick="goToSite()"/>-->
+                <div class="engButtons">
+                    <a class="linksEng" href="sefer-matkonim.html" alt="כפתור לחיץ מעבר לספר מתכונים">ספר מתכונים</a>
+                </div>
+                <div class="engButtons">
+                    <a class="linksEng" href="about.html" alt="כפתור לחיץ מעבר לאודות">שנכיר לעומק?</a>
+                </div>
+                <div class="engButtons">
+                    <p class="linksEng" id="yeridim" alt="כפתור לחיץ מעבר לירידי אוכל בעולם (לא זמין)">ירידי אוכל בעולם</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="leftSide" alt="צד שמאל של העמוד">
+            <div class="slideshow-container fade" id="carousel">
+
+                <h2>
+                    קצת תמונות של אוכל מסביב לעולם
+                    <br />
+                    שישאירו אתכם עם טעם של עוד...
+                </h2>
+
+                <!-- Full images with numbers and message Info -->
+                <div class="Containers">
+                    <div class="MessageInfo">1 / 6</div>
+                    <img src="../files/Carousle/גלידה.jpg" style="width:100%; height:373px" alt="תמונה של גלידה">
+                    <div class="Info">גלידה בברלין</div>
+                </div>
+
+                <div class="Containers">
+                    <div class="MessageInfo">2 / 6</div>
+                    <img src="../files/Carousle/פיצה.jpg" style="width:100%" alt="תמונה של תירס">
+                    <div class="Info">פיצה על שפת הנהר</div>
+                </div>
+
+                <!-- Add three more Containers for the new pictures -->
+                <div class="Containers">
+                    <div class="MessageInfo">3 / 6</div>
+                    <img src="../files/Carousle/המבורגר.jpg" style="width:100%" alt="תמונה חדשה 1">
+                    <div class="Info">דייטבורגר</div>
+                </div>
+
+                <div class="Containers">
+                    <div class="MessageInfo">4 / 6</div>
+                    <img src="../files/Carousle/ראמן.jpg" style="width:100%" alt="תמונה חדשה 2">
+                    <div class="Info">ראמן בג'אפן</div>
+                </div>
+
+                <div class="Containers">
+                    <div class="MessageInfo">5 / 6</div>
+                    <img src="../files/Carousle/נודלס.jpg" style="width:100%" alt="תמונה חדשה 3">
+                    <div class="Info">נודלס בין עבודות</div>
+                </div>
+
+                <div class="Containers">
+                    <div class="MessageInfo">6 / 6</div>
+                    <img src="../files/Carousle/ציפס.jpg" style="width:100%" alt="תמונה של בוריטו">
+                    <div class="Info">"אין פחמימה ריקה, יש פחמימה שריק לה"</div>
+                </div>
+
+                <!-- Thumbnail images -->
+                <div class="thumbnail-container">
+                    <img class="thumbnail" onclick="goToSlide(0)" src="../files/Carousle/גלידה.jpg" >
+                    <img class="thumbnail" onclick="goToSlide(1)" src="../files/Carousle/פיצה.jpg" >
+                    <img class="thumbnail" onclick="goToSlide(2)" src="../files/Carousle/המבורגר.jpg" >
+                    <img class="thumbnail" onclick="goToSlide(3)" src="../files/Carousle/ראמן.jpg" >
+                    <img class="thumbnail" onclick="goToSlide(4)" src="../files/Carousle/נודלס.jpg" >
+                    <img class="thumbnail" onclick="goToSlide(5)" src="../files/Carousle/ציפס.jpg" >
+                </div>
+
+                <!-- Back and forward buttons -->
+                <a class="forward" onclick="nextSlide()" alt="כפתור מעבר אחורה בקרוסלת תמונות">&#10095;</a>
+                <a class="Back" onclick="previousSlide()" alt=" כפתור מעבר קדימה בקרוסלת תמונות">&#10094;</a>
+
+               
+                <br />
+                
+            </div>
+            <br>
+        </div>
+
+        <br>
+    </div>
+    
+    <footer class="footer">
+        <nav id="navFooter">
+            <ul>
+                <li class="navHover"><a class="links" href="siteMap.html">מפת אתר</a></li>
+                <li class="navHover"><a class="links" href="about.html">אודות</a></li>
+                <li class="navHover"><a class="links" href="contactUs.html">צור קשר</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
